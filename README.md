@@ -267,4 +267,4 @@ Mummy is a health tracking tool, not a medical device. Always consult healthcare
 
 ---
 
-**I'm in my vibe coding era, bear with me, thanks claude**
+**I'm in my vibe coding era, bear with me, thanks **
