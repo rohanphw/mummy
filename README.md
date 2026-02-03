@@ -231,11 +231,11 @@ mummy/
 └── package.json          # Dependencies and scripts
 ```
 
-## 🤝 Contributing
+## 🤝 Contributing (don't open any PRs in this repo please)
 
 Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
-## 📝 License
+## 📝 License (eh — its a vibe coded app)
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
@@ -243,7 +243,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Mummy is a health tracking tool, not a medical device. Always consult healthcare professionals for medical advice, diagnosis, or treatment. The bot provides information based on your data but does not replace professional medical judgment.
 
-## 🙏 Acknowledgments
+## 🙏 Acknowledgments (wow, talk about self-glazing, jeez)
 
 - [Anthropic](https://www.anthropic.com/) for Claude AI
 - [Twilio](https://www.twilio.com/) for WhatsApp API
@@ -255,7 +255,7 @@ Mummy is a health tracking tool, not a medical device. Always consult healthcare
 - 🐛 [Issue Tracker](https://github.com/YOUR-USERNAME/mummy/issues)
 - 💬 [Discussions](https://github.com/YOUR-USERNAME/mummy/discussions)
 
-## 🗺️ Roadmap
+## 🗺️ Roadmap (I won't implement these anytime soon, but feel free to do it yourself with claude code)
 
 - [ ] Voice message support
 - [ ] Medication reminder scheduling
@@ -267,6 +267,4 @@ Mummy is a health tracking tool, not a medical device. Always consult healthcare
 
 ---
 
-**Made with ❤️ using TypeScript, Claude AI, and Express**
-
-*Star ⭐ this repo if you find it helpful!*
+**I'm in my vibe coding era, bear with me, thanks claude**
