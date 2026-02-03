@@ -2,7 +2,7 @@
 
 > Your caring personal health assistant for families via WhatsApp
 
-[![CI](https://github.com/YOUR-USERNAME/mummy/workflows/CI/badge.svg)](https://github.com/YOUR-USERNAME/mummy/actions)
+[![CI](https://github.com/rohanphw/mummy/workflows/CI/badge.svg)](https://github.com/YOUR-USERNAME/mummy/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue)](https://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-18+-green)](https://nodejs.org/)
@@ -32,7 +32,7 @@ Mummy is an intelligent WhatsApp bot that helps you and your family track health
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR-USERNAME/mummy.git
+git clone https://github.com/rohanphw/mummy.git
 cd mummy
 
 # Install dependencies
