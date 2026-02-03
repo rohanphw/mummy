@@ -1,0 +1,52 @@
+version: '3.8'
+
+services:
+  mummy:
+    build: .
+    container_name: mummy-bot
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - NODE_ENV=production
+      - MONGODB_URI=mongodb://mongo:27017/mummy
+    env_file:
+      - .env
+    depends_on:
+      - mongo
+    volumes:
+      - ./uploads:/app/uploads
+    networks:
+      - mummy-network
+    healthcheck:
+      test: ["CMD", "node", "-e", "require('http').get('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  mongo:
+    image: mongo:7
+    container_name: mummy-mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_DATABASE=mummy
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - mummy-network
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  mongo-data:
+    driver: local
+
+networks:
+  mummy-network:
+    driver: bridge
